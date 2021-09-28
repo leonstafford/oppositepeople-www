@@ -1,0 +1,43 @@
+baseURL = "https://oppositepeople.net"
+languageCode = "en-us"
+title = "Opposite People"
+theme = "accessible-minimalism"
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params.info]
+description = "Afrobeat Masterpiece"
+title404 = "Nothing's here!"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Originals"
+    url = "/originals/"
+    weight = 2
+  [[menu.main]]
+    name = "Covers"
+    url = "/covers/"
+    weight = 3
+  [[menu.main]]
+    name = "Sheet Music"
+    url = "/sheet-music/"
+    weight = 5
+  [[menu.main]]
+    name = "Info"
+    url = "/info/"
+    weight = 6
+  [[menu.main]]
+    name = "Music Discovery"
+    url = "/music-discovery/"
+    weight = 7
+
+[outputs]
+  home = ["HTML", "RSS"]
+  search = ["HTML", "JSON"]
+
